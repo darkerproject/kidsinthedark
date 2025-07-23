@@ -2,53 +2,56 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Registro - Kids in the Dark</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registro - Darker Project</title>
   <style>
     body {
+      background-color: #0057FF;
+      color: white;
+      font-family: Helvetica, Arial, sans-serif;
       margin: 0;
-      font-family: Helvetica, sans-serif;
-      background-color: #000014;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-
-    header {
-      margin-top: 40px;
+      padding: 0;
       text-align: center;
     }
 
-    header img {
-      height: 60px;
-      margin-bottom: 10px;
+    .container {
+      padding: 40px 20px;
+    }
+
+    .logo {
+      max-width: 250px;
+      margin-bottom: 30px;
     }
 
     h1 {
       font-size: 28px;
-      margin: 0;
+      margin-bottom: 20px;
     }
 
     iframe {
-      margin: 40px auto;
-      border: none;
       width: 100%;
-      max-width: 640px;
-      height: 900px;
-      border-radius: 8px;
-      box-shadow: 0 0 20px rgba(0, 0, 50, 0.5);
+      max-width: 500px;
+      height: 700px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .footer-logo {
+      margin-top: 50px;
+      max-width: 100px;
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://i.imgur.com/j5PWAvR.png" alt="Logo Darker Project" />
-    <h1>Formulario de Registro</h1>
-  </header>
+  <div class="container">
+    <img src="https://i.ibb.co/Pvb2M4zN/824-F8864-660-B-427-E-8-CF8-D7-E8016-E5-F82.png" alt="Logo Darker Project" class="logo" />
 
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdAgqHyUpa7VRR7qSLcKD1Z8cYZrgqvd8LHT9rmkSDrFxW5dQ/viewform?embedded=true" allowfullscreen></iframe>
+    <h1>Registro para el Evento</h1>
+
+    <iframe src="https://forms.gle/sAaMCs1JGsSgAFERA" allowfullscreen></iframe>
+
+    <img src="https://i.ibb.co/Pvb2M4zN/824-F8864-660-B-427-E-8-CF8-D7-E8016-E5-F82.png" class="footer-logo" alt="Logo pequeño al pie">
+  </div>
 </body>
 </html>
